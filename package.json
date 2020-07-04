@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-html-css",
+  "version": "1.0.0",
+  "description": "Repositório destinado para o desenvolvimento do meu portfólio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorvfdev/project-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igorvfdev/project-portfolio/issues"
+  },
+  "homepage": "https://github.com/igorvfdev/project-portfolio#readme"
+}

@@ -32,10 +32,15 @@ ul {list-style: none;}
 
 
 /*ABOUT*/
+
+.about{
+    margin: 15px 0 0;
+    
+}
+
 .about p{
     width: 100%;
     padding: 1% 2%;
-    margin-bottom: 2%;
     background-color: #333;
     border-radius: 7px;
     color: #fff;
@@ -150,15 +155,40 @@ ul {list-style: none;}
 .mainFooter{
     width: 100%;
     float: left;
-    
     background-color: #505050;
     text-align: center;
     font-size: 1em;
     color: #fff;  
 }
 
-.mainFooter .site-lock{
-    text-align: center;
-    margin-top: 3%;
+.mainFooter .icons{
+    width: 100%;
+    margin-top: 1%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
 }
 
+.mainFooter .icons a{
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #0073b0;
+    background-color: #fff;
+    padding: 5px;
+    border: 2px solid #333;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.mainFooter .icons a:hover{
+    color: #fff;
+    background: #333;
+    border: 2px solid #fff;
+
+}
+
+.mainFooter p{
+    margin-bottom: 1%;
+}
