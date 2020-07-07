@@ -12,8 +12,6 @@
 
 body{background: #f5f5f5;}
 
-ul {list-style: none;}
-
 /*HEADER*/
 .mainHeader h1{
     text-align: center;
@@ -29,22 +27,21 @@ ul {list-style: none;}
     margin-bottom: 2%;
 }
 
-
-
 /*ABOUT*/
-
 .about{
-    margin: 15px 0 0;
-    
+    margin-bottom: 2%;
+    width: 70%;
+    margin-left: 15%;
 }
 
 .about p{
     width: 100%;
-    padding: 1% 2%;
+    padding: 2% 2%;
     background-color: #333;
     border-radius: 7px;
     color: #fff;
     text-align: center;
+    font-size: 1.2em;
 }
 
 /*CONTENT HOVER*/
@@ -55,8 +52,9 @@ ul {list-style: none;}
 }
 
 .services{
-    width: 100%;
+    width: 90%;
     background-color: #fff;
+    margin-left: 5%;
     border-radius: 7px;
     margin-bottom: 3%;
     display: flex;
@@ -135,22 +133,6 @@ ul {list-style: none;}
     
 }
 
-.services .card .face.face2 .content a{
-    margin: 15px 0 0;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 900;
-    color: #333;
-    padding: 5px;
-    border: 1px solid #333;
-    transition: 0.5s;
-}
-
-.services .card .face.face2 .content a:hover{
-    color: #fff;
-    background: #333;
-}
-
 /*FOOTER*/
 .mainFooter{
     width: 100%;
@@ -189,6 +171,6 @@ ul {list-style: none;}
 
 }
 
-.mainFooter p{
-    margin-bottom: 1%;
+.mainFooter .site-lock{
+    margin: 1%;
 }
