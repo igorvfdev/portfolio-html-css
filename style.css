@@ -174,3 +174,7 @@ body{background: #f5f5f5;}
 .mainFooter .site-lock{
     margin: 1%;
 }
+
+.mainFooter .site-lock p{
+    margin-bottom: 1%;
+}
